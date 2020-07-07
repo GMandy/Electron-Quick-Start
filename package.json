@@ -1,32 +1,23 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "sysadvent",
+  "version": "0.1.0",
   "main": "main.js",
-  "scripts": {
-
-    "start": "electron main.js",
-    "build": "build --mwl --x64 --ia32",
-    "build-windows": "build --windows --x64 --ia32",
-    "build-mac": "build --mac --x64 --ia32",
-    "build-linux": "build --linux --x64 --ia32"
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "rmgao@nltechdev.com",
-  "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^9.0.5",
+    "electron": "^1.4.10",
     "electron-builder": "^11.2.0"
   },
+  "description": "SysAdvent",
+  "author": "grm",
+  "license": "MIT",
   "build": {
     "appId": "com.michaelheap.sysadvent",
     "category": "app.category.type"
+  },
+  "scripts": {
+      "start": "electron main.js",
+      "build": "build --mwl --x64 --ia32",
+      "build-windows": "build --windows --x64 --ia32",
+      "build-mac": "build --mac --x64 --ia32",
+      "build-linux": "build --linux --x64 --ia32"
   }
 }
