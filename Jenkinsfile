@@ -1,6 +1,6 @@
 node {
   checkout scm
-  bat "npm install"
   def LOCALAPPDATA = "C:/electron-builder_localappdata"
+  bat "npm install"
   bat "npm run build-windows"
 }
