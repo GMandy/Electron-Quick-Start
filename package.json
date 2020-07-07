@@ -28,5 +28,5 @@
   "build": {
     "appId": "com.michaelheap.sysadvent",
     "category": "app.category.type"
-  },
+  }
 }
