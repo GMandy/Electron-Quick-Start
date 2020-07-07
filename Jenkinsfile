@@ -1,5 +1,5 @@
 node {
   checkout scm
   bat "npm install"
-  bat "npm run build-linux"
+  bat "electron-builder --win --ia32 --x64"
 }
