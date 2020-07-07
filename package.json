@@ -23,7 +23,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.0.5",
-    "electron-builder": "^10.4.1"
+    "electron-builder": "^11.2.0"
   },
   "build": {
     "appId": "com.michaelheap.sysadvent",
