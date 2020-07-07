@@ -4,7 +4,7 @@
   "main": "main.js",
   "devDependencies": {
     "electron": "^9.0.5",
-    "electron-builder": "^13.8.0"
+    "electron-builder": "^20.38.1"
   },
   "description": "SysAdvent",
   "author": "grm",
