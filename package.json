@@ -4,7 +4,12 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+
+    "start": "electron main.js",
+    "build": "build --mwl --x64 --ia32",
+    "build-windows": "build --windows --x64 --ia32",
+    "build-mac": "build --mac --x64 --ia32",
+    "build-linux": "build --linux --x64 --ia32"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -14,9 +19,14 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "rmgao@nltechdev.com",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.0.5"
-  }
+    "electron-builder": "^10.4.1"
+  },
+  "build": {
+    "appId": "com.michaelheap.sysadvent",
+    "category": "app.category.type"
+  },
 }
