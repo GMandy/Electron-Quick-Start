@@ -1,4 +1,4 @@
 node {
   checkout scm
-  sh 'npm install'
+  bat "npm install"
 }
