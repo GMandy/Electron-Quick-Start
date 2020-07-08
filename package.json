@@ -8,7 +8,7 @@
   },
   "description": "SysAdvent",
   "author": "grm",
-  "license": "MIT",
+  "license": "ISC",
   "build": {
     "appId": "com.michaelheap.sysadvent",
     "category": "app.category.type"
