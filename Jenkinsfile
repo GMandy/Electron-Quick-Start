@@ -6,7 +6,7 @@ node{
  
   stage('pre') {
     //check()
-    bat 'rm -rf node_modules build dist bundle'
+    bat 'rd -r node_modules'
   }
  
   stage('build') {
