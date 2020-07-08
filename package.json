@@ -8,7 +8,7 @@
     "electron-debug": "^1.5.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-packager": "^12.2.0",
-    "electron-toolkit": "^1.0.24",
+    "electron-toolkit": "^1.0.24"
   },
   "description": "SysAdvent",
   "author": "grm",
@@ -18,7 +18,7 @@
   },
   "scripts": {
       "start": "electron main.js",
-      "publish": "build --mac --win -p always"
+      "publish": "build --mac --win -p always",
       "lint": "eslint --ext .js,.vue src",
       "lint-fix": "eslint --ext .js,.vue src --fix",
       "dev": "quasar dev -m electron -t mat",
