@@ -1,6 +1,6 @@
 node{
   checkout scm;
-  def noCacheToBuild = load("${WORKSPACE}/.jenkins/noCacheToBuild.groovy")
+  //def noCacheToBuild = load("${WORKSPACE}/.jenkins/noCacheToBuild.groovy")
   def check = load("${WORKSPACE}/.jenkins/check.groovy")
  
   stage('pre') {
