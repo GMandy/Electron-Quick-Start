@@ -4,7 +4,7 @@
   "main": "main.js",
   "devDependencies": {
     "electron": "^9.0.5",
-    "electron-builder": "^20.38.1"
+    "electron-builder": "^20.38.1",
     "yarn": "^1.13.0"
   },
   "engines": {
