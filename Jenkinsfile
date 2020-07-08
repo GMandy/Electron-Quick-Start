@@ -1,10 +1,11 @@
 node{
-  checkout scm;
-  //def noCacheToBuild = load("${WORKSPACE}/.jenkins/noCacheToBuild.groovy")
-  def check = load("${WORKSPACE}/.jenkins/check.groovy")
+  
+  stage('checkout') {
+   checkout scm;
+  }
  
   stage('pre') {
-    check()
+    //check()
     bat 'rm -rf node_modules build dist bundle'
   }
  
