@@ -8,7 +8,15 @@
     "electron-debug": "^1.5.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-packager": "^12.2.0",
-    "electron-toolkit": "^1.0.24"
+    "electron-toolkit": "^1.0.24",
+    "quasar-cli": "^0.17.26",
+    "strip-ansi": "=3.0.1",
+    "vue-loader": "^15.7.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
   },
   "description": "SysAdvent",
   "author": "grm",
