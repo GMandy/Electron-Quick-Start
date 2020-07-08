@@ -6,6 +6,9 @@
     "electron": "^9.0.5",
     "electron-builder": "^20.38.1"
   },
+  "engines": {
+    "node": "8.9.4"
+  },
   "description": "SysAdvent",
   "author": "grm",
   "license": "ISC",
