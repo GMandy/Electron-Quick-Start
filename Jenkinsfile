@@ -4,11 +4,6 @@ node{
    checkout scm;
   }
  
-  stage('pre') {
-    //check()
-    bat 'rd -r node_modules'
-  }
- 
   stage('build') {
     bat '''
        yarn install
