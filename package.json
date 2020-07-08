@@ -11,8 +11,7 @@
   "author": "grm",
   "license": "ISC",
   "build": {
-    "appId": "com.michaelheap.sysadvent",
-    "category": "app.category.type"
+    "appId": "com.michaelheap.sysadvent"
   },
   "scripts": {
       "start": "electron main.js",
