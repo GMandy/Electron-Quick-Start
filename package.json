@@ -19,5 +19,6 @@
       "build-windows": "build --windows --x64 --ia32",
       "build-mac": "build --mac --x64 --ia32",
       "build-linux": "build --linux --x64 --ia32"
+      "publish": "build --mac --win -p always"
   }
 }
