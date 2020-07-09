@@ -9,6 +9,7 @@
   "description": "Electron",
   "author": "rmgao<rmgao@nltechdev.com>",
   "license": "MIT",
+  "repository": "https://github.com/GMandy/Electron-Quick-Start",
   "build": {
     "appId": "com.michaelheap.sysadvent"
   },
