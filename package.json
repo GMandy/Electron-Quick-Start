@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "main.js",
   "devDependencies": {
-    "electron": "^1.4.10",
-    "electron-builder": "^10.4.1"
+    "electron": "^3.0.0",
+    "electron-builder": "^20.29.0"
   },
   "description": "SysAdvent",
   "author": "rmgao<rmgao@nltechdev.com>",
