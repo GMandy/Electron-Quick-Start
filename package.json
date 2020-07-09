@@ -3,63 +3,21 @@
   "version": "0.1.0",
   "main": "main.js",
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "devtron": "^1.4.0",
-    "electron": "^9.0.5",
-    "electron-builder": "^20.38.1",
-    "electron-debug": "^1.5.0",
-    "electron-devtools-installer": "^2.2.4",
-    "electron-packager": "^12.2.0",
-    "electron-toolkit": "^1.0.24",
-    "quasar-cli": "^0.17.26",
-    "strip-ansi": "=3.0.1",
-    "vue-loader": "^15.7.0",
-    "eslint": "^4.18.2",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-vue": "^4.3.0",
-    "quasar-cli": "^0.17.26",
-    "strip-ansi": "=3.0.1",
-    "vue-loader": "^15.7.0"
-  },
-  "dependencies": {
-    "chokidar": "^3.0.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mime-types": "^2.1.24",
-    "moment": "^2.24.0",
-    "pretty-bytes": "^5.2.0"
-  },
-  "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.6.0",
-    "yarn": ">= 1.6.0"
+    "electron": "^1.4.10",
+    "electron-builder": "^10.4.1"
   },
   "description": "SysAdvent",
-  "author": "grm",
-  "license": "ISC",
+  "author": "rmgao<rmgao@nltechdev.com>",
+  "license": "MIT",
   "build": {
-    "appId": "com.michaelheap.sysadvent"
+    "appId": "com.michaelheap.sysadvent",
+    "category": "app.category.type"
   },
   "scripts": {
       "start": "electron main.js",
-      "publish": "build --mac --win -p always",
-      "lint": "eslint --ext .js,.vue src",
-      "lint-fix": "eslint --ext .js,.vue src --fix",
-      "dev": "quasar dev -m electron -t mat",
-      "build": "quasar build -m electron -t mat",
-      "build-linux": "quasar build -m electron linux -t mat -b builder",
-      "build-win32": "quasar build -m electron win32 -t mat -b builder",
-      "build-mac": "quasar build -m electron mac -t mat -b builder",
-      "electron-toolkit": "electron ./node_modules/electron-toolkit",
-      "test": "echo \"No test specified\" && exit 0"
-  },
-  "peerDependencies": {
-    "vue-template-compiler": "^2.6.10"
+      "build": "build --mwl --x64 --ia32",
+      "build-windows": "build --windows --x64 --ia32",
+      "build-mac": "build --mac --x64 --ia32",
+      "build-linux": "build --linux --x64 --ia32"
   }
 }
