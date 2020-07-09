@@ -1,14 +1,17 @@
 {
-  "name": "sysadvent",
+  "name": "Electron",
   "version": "0.1.0",
   "main": "main.js",
   "devDependencies": {
     "electron": "^3.0.0",
     "electron-builder": "^20.29.0"
   },
-  "description": "SysAdvent",
+  "description": "Electron",
   "author": "rmgao<rmgao@nltechdev.com>",
   "license": "MIT",
+  "build": {
+    "appId": "com.michaelheap.sysadvent"
+  },
   "scripts": {
       "start": "electron main.js",
       "build": "build --mwl --x64 --ia32",
